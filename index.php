@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +54,7 @@ ul#category{
       <a class="navbar-brand" href="#">AwesomeShop</a>
     </div>
     <ul class="nav navbar-nav" style="float: right;">
-      <li class="nav-item"><a href="#"> <img src="help.png" width="20px;" height="20px;"> Help</a></li>
+      <li class="nav-item"><a href="#"> <img src="https://cdn1.iconfinder.com/data/icons/mini-solid-icons-vol-2/16/82-512.png" width="20px;" height="20px;"> Help</a></li>
       <li class="nav-item"><button type="button" class="btn btn-success" style="margin-top: 8px;">join</button></li>
     </ul>
   </div>
@@ -111,12 +112,6 @@ ul#category{
       </ul>
     </div>
     <div class="col-sm-10" style="background-color: grey;">
-      <div class="card" style="width:400px">
-        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
       </div>
