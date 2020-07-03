@@ -1,2 +1,2 @@
 # AwesomeShop
-# OnlineShop
+This is for my school project.
