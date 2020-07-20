@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Log In</title>
+        <title>Sign Up</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="signup.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-sm bg-light">
@@ -19,21 +19,26 @@
           <br><br><br>
           <div class="center">
               <div class="login">
-                <form action="/login.php">
-                    <h3>Welcome Back</h3>
-                    <p>Log in with your email & password</p>
-                    
+                <form action="/signup.php">
+                    <h3>Sign Up</h3>
+                    <p>By signing up you agreed to AwesomeShop's term & Condition</p>
+                    <div class="form-group">
+                        <input type="name" class="form-control" placeholder="name" id="name">
+                    </div>
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Email" id="email">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="password" id="password">
+                        <input type="text" class="form-control" placeholder="password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Confirm Password" id="password">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success btn-block" value="submit">Continue</button>
                     </div>
                     <p>
-                        Don't have any account? <a href="signup">Sign Up</a>
+                        Already have account? <a href="login">Log In</a>
                     </p>
                 </form>
               </div>

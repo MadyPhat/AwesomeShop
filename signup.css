@@ -1,0 +1,18 @@
+
+.login{
+    margin: auto;
+    width: 70%;
+}
+.center{
+    margin: auto;
+    width: 40%;
+    border: 3px solid green;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: green;
+}
